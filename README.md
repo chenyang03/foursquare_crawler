@@ -74,9 +74,9 @@ Guess language 0.2(https://pypi.python.org/pypi/guess-language )
 			        "facebook": "6523018"
 			     }, 
 			    "superuser": 1
-		      },
-		      ..._other friends_... 
-	         ]
+		        },
+		        ..._other friends_... 
+	           ]
             }
      } 
     
