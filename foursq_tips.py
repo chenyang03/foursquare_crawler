@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 import json
-import guess_language
-from textblob import TextBlob
 from foursq_utils import *
 
 def get_venue_category(venue_category_name):
@@ -95,13 +93,13 @@ def fetch_usr_tips(user_id):
         else:
             a['category'] = '-'
 
-        tip_text = a['text']
-        tip_language = guess_language.guessLanguage(tip_text)
-        if tip_language == 'en':
-            testimonial = TextBlob(tip_text)
-            polarity = testimonial.sentiment.polarity
-            a['polarity'] = polarity
-        else:
-            a['polarity'] = '-'
+        # tip_text = a['text']
+        # tip_language = guess_language.guessLanguage(tip_text)
+        # if tip_language == 'en':
+        #     testimonial = TextBlob(tip_text)
+        #     polarity = testimonial.sentiment.polarity
+        #     a['polarity'] = polarity
+        # else:
+        #     a['polarity'] = '-'
         output_dict['tips content'].append(a)
     return output_dict, users_with_tips
