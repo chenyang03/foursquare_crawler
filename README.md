@@ -48,36 +48,36 @@ Guess language 0.2(https://pypi.python.org/pypi/guess-language )
                         "id": "101",  
 			    "firstName": "xxxx", 
 			    "lastName": "xxxx", 
-			"gender": "male"(_or female_),
-			"countryCode": "AU", 
-			"canonicalUrl": "xxxx", 
-			"canonicalPath": "/xxxx", 
-			"photo": {
-				"prefix": "https://fastly.4sqi.net/img/user/", 
-			        "suffix": "/xxxx.jpg"
-			}, 
-			"isAnonymous": False(_or True_), 
-			"tips": {"count": 7}, 
-			"lists": {
-				"groups": [
-			        	{
-			        		"type": "created",
-			               		"count": 2, 
-			                	"items": []
+			    "gender": "male"(_or female_),
+			    "countryCode": "AU", 
+			    "canonicalUrl": "xxxx", 
+			    "canonicalPath": "/xxxx", 
+			    "photo": {
+				    "prefix": "https://fastly.4sqi.net/img/user/", 
+			            "suffix": "/xxxx.jpg"
+			    }, 
+			    "isAnonymous": False(_or True_), 
+			    "tips": {"count": 7}, 
+			    "lists": {
+				    "groups": [
+			                {
+			        	    "type": "created",
+			                    "count": 2, 
+			                    "items": []
 			        	}
-			        ]
-			}, 
-			"homeCity": " Australia", 
-			"bio": "", 
-			"contact": {
+			            ]
+			    }, 
+			    "homeCity": " Australia", 
+			    "bio": "", 
+			    "contact": {
 				"twitter": "ross", 
 			        "facebook": "6523018"
-			}, 
-			"superuser": 1
-		    },
-		     ..._other friends_... 
-		]
-           }
+			     }, 
+			    "superuser": 1
+		      },
+		      ..._other friends_... 
+	         ]
+            }
      } 
     
 # Usage
