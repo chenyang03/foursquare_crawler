@@ -195,8 +195,8 @@ category_Travel_Transport = ['Cruise', 'Metro Station', 'Transportation Service'
 
 
 
-reload(sys)
-sys.setdefaultencoding('utf-8')
+#reload(sys)
+#sys.setdefaultencoding('utf-8')
 h = httplib2.Http(disable_ssl_certificate_validation=True)
 
 
