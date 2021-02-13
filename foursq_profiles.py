@@ -30,6 +30,8 @@ def fetch_anonymous_token():
     if content == -1 or content == -2:
         return 'missing', 0
 
+    content = content.decode() 
+    #content = content.encode()
     content = content.split("\n")
 
     for line in content:
@@ -55,7 +57,7 @@ def fetch_user_profile(UID):
         user_info.setdefault('user id', str(UID))
         user_info.setdefault('imgURL', data['photo']['prefix'] + '256x256' + data['photo']['suffix'])
         user_info.setdefault('address', data['homeCity'])
-        user_info.setdefault('friends count', data['friends']['count'])
+
         if 'facebook' in data['contact']:
             user_info.setdefault('facebook', data['contact']['facebook'])
         else:
